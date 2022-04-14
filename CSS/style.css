@@ -1,0 +1,72 @@
+
+body {
+  color:white;
+    background-color: hotpink;
+    font-style: normal;
+    background-image: url("../Images/QYVCzK-bnYU.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+ }
+
+ img {
+  width:100%;
+  height:auto;
+}
+
+.headshot{
+  max-width:25%;
+  max-height:auto;
+  object-fit:contain;
+}
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+  max-width:20%;
+  max-height:auto;
+  object-fit:contain;
+  display:inline-flex;
+  justify-content: space-between;
+  }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255, .2);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rgb(255, 255, 255, .2);
+      color: white;
+      text-align: center;
+      display:inline-block;
+  }
+ 
+
+  /* Add rounded corners to the top left and the top right corner of the image */
+  img {
+    border-radius: 5px 5px 0 0;
+  }
